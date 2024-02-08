@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01</title>
+    <link rel="stylesheet" href="./styles/card.css">
+    <script src="./src/components/cardNews.js" defer></script>
+    <script src="./src/components/tituloDinamico.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+            <!-- Criação do componente com as props -->
+        <card-news 
+            autor="Raul Carbone" 
+            title="Aula sobre Components DIO"
+            link-url="#"
+            photo="./assets/asset-vader.png"
+            content="Exercício para reforçar conceitos de HTML e CSS e estudo sobre a diferença entre Elements e Web Components, entendendo DOM, entendendo Shadow DOM e criando Componentes apenas com JS sem o uso de nenhum framework."
+        ></card-news>
+
+        <card-news 
+            title="Noticia teste 2"
+            link-url="#"
+            content="Noticia teste 2, utilizando o componente criado e suas propriedades e sua reação quando não se coloca um autor ou img etc" 
+        ></card-news>
+
+
+    </div>
+
+    <!-- Componente Básico-->
+    <!-- <card-news></card-news> -->
+
+    <!-- Componente Estilizado e com 'Propriedades'-->
+    <!-- <titulo-dinamico titulo="Título da Notícia"></titulo-dinamico> -->
+
+
+</body>
+
+</html>
